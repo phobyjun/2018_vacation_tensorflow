@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ce854a7-b0dd-4d84-95db-88c30f412c3a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Chapter_3/ex_Linear_Regression.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter_3/ex_Logistic_Regression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Understanding Tensorflow Basics.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Understanding Tensorflow Basics.docx" afterDir="false" />
-    </list>
+    <list default="true" id="7ce854a7-b0dd-4d84-95db-88c30f412c3a" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,25 +11,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ex_Linear_Regression.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter_3/ex_Linear_Regression.py">
+      <file leaf-file-name="Softmax_Regression.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Chapter_2/Softmax_Regression.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
+            <state relative-caret-position="398">
+              <caret line="33" column="41" lean-forward="true" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
               <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ex_Logistic_Regression.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Chapter_3/ex_Logistic_Regression.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="46" column="56" lean-forward="true" selection-start-line="46" selection-start-column="56" selection-end-line="46" selection-end-column="56" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -85,11 +68,6 @@
               <item name="2018_vacation_tensorflow" type="b2602c69:ProjectViewProjectNode" />
               <item name="2018_vacation_tensorflow" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="2018_vacation_tensorflow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="2018_vacation_tensorflow" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter_3" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -113,7 +91,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ex_Logistic_Regression">
+  <component name="RunManager" selected="Python.Softmax_Regression">
+    <configuration name="Softmax_Regression" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="2018_vacation_tensorflow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter_2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_2/Softmax_Regression.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="ex_Linear_Regression" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="2018_vacation_tensorflow" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -145,24 +141,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_3/ex_Logistic_Regression.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="ex_Matmul" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="2018_vacation_tensorflow" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex_Matmul.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -205,19 +183,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.ex_Matmul" />
       <item itemvalue="Python.ex_Variables" />
       <item itemvalue="Python.ex_Placeholders" />
       <item itemvalue="Python.ex_Linear_Regression" />
       <item itemvalue="Python.ex_Logistic_Regression" />
+      <item itemvalue="Python.Softmax_Regression" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ex_Logistic_Regression" />
+        <item itemvalue="Python.Softmax_Regression" />
         <item itemvalue="Python.ex_Linear_Regression" />
+        <item itemvalue="Python.ex_Logistic_Regression" />
         <item itemvalue="Python.ex_Placeholders" />
         <item itemvalue="Python.ex_Variables" />
-        <item itemvalue="Python.ex_Matmul" />
       </list>
     </recent_temporary>
   </component>
@@ -236,12 +214,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16315378" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16315378" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.18416524" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.18416524" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -349,22 +326,32 @@
     <entry file="file://$PROJECT_DIR$/Chapter_3/ex_Matmul.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter_3/ex_Linear_Regression.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter_3/ex_Logistic_Regression.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="46" column="56" lean-forward="true" selection-start-line="46" selection-start-column="56" selection-end-line="46" selection-end-column="56" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter_3/ex_Linear_Regression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter_2/Softmax_Regression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="33" column="41" lean-forward="true" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
