@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ce854a7-b0dd-4d84-95db-88c30f412c3a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Chapter_4/MNIST_CNN.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/2018_vacation_tensorflow.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/2018_vacation_tensorflow.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_4/CNN.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter_4/CNN.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_4/layers.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter_4/layers.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,35 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MNIST_CNN.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter_4/MNIST_CNN.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-              <folding>
-                <element signature="e#0#20#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="layers.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter_4/layers.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Softmax_Regression.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Chapter_2/Softmax_Regression.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="123">
+              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -80,6 +52,7 @@
         <option value="$PROJECT_DIR$/Chapter_3/ex_Logistic_Regression.py" />
         <option value="$PROJECT_DIR$/Chapter_4/layers.py" />
         <option value="$PROJECT_DIR$/Chapter_4/MNIST_CNN.py" />
+        <option value="$PROJECT_DIR$/Chapter_2/Softmax_Regression.py" />
       </list>
     </option>
   </component>
@@ -106,11 +79,6 @@
               <item name="2018_vacation_tensorflow" type="462c0819:PsiDirectoryNode" />
               <item name="Chapter_2" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="2018_vacation_tensorflow" type="b2602c69:ProjectViewProjectNode" />
-              <item name="2018_vacation_tensorflow" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter_4" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -133,7 +101,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.MNIST_CNN">
+  <component name="RunManager" selected="Python.Softmax_Regression">
     <configuration name="MNIST_CNN" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="2018_vacation_tensorflow" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -233,9 +201,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Softmax_Regression" />
         <item itemvalue="Python.MNIST_CNN" />
         <item itemvalue="Python.layers" />
-        <item itemvalue="Python.Softmax_Regression" />
         <item itemvalue="Python.ex_Linear_Regression" />
         <item itemvalue="Python.ex_Logistic_Regression" />
       </list>
@@ -263,7 +231,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22375216" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32358003" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -378,8 +346,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter_2/Softmax_Regression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="123">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
