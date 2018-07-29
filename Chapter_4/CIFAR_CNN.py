@@ -1,15 +1,14 @@
 import os
 import _pickle
 import numpy as np
-import matplotlib as mpl
 import matplotlib.pylab as plt
 
-DATA_PATH = "/CIFAR10"
+DATA_PATH = "./CIFAR10"
 
 
 def unpickle(file):
     with open(os.path.join(DATA_PATH, file), 'rb') as fo:
-        dict = _pickle.load(fo)
+        dict = _pickle.load(fo, encoding='latin1')
     return dict
 
 
@@ -56,10 +55,10 @@ def display_cifar(images, size):
     plt.show()
 
 
-d = CifarDataManager()
-print("Number of train images: {}".format(len(d.train.images)))
-print("Number of train labels: {}".format(len(d.train.labels)))
-print("Number of test images: {}".format(len(d.test.images)))
-print("Number of test labels: {}".format(len(d.test.labels)))
-images = d.train.images
-display_cifar(images, 10)
+# d = CifarDataManager()
+# print("Number of train images: {}".format(len(d.train.images)))
+# print("Number of train labels: {}".format(len(d.train.labels)))
+# print("Number of test images: {}".format(len(d.test.images)))
+# print("Number of test labels: {}".format(len(d.test.labels)))
+# images = d.train.images
+# display_cifar(images, 10)
