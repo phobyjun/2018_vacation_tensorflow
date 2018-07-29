@@ -1,7 +1,7 @@
 from CIFAR_DataManager import *
 
 STEPS = 1000
-BATCH_SIZE = 128
+BATCH_SIZE = 100
 cifar = CifarDataManager()
 
 x = tf.placeholder(tf.float32, shape=[None, 32, 32, 3])
@@ -40,7 +40,7 @@ with tf.Session() as sess:
     sess.run(tf.global_variables_initializer())
 
     for i in range(STEPS):
-        batch = cifar.train.nest_batch(BATCH_SIZE)
+        batch = cifar.train.next_batch(BATCH_SIZE)
         sess.run(train_step, feed_dict={x: batch[0], y_: batch[1], keep_prob: 0.5})
 
     test(sess)

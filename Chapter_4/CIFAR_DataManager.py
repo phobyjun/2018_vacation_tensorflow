@@ -33,7 +33,7 @@ class CifarLoader(object):
         self.labels = one_hot(np.hstack([d["labels"] for d in data]), 10)
         return self
 
-    def nest_batch(self, batch_size):
+    def next_batch(self, batch_size):
         x, y = self.images[self._i:self._i:batch_size], self.labels[self._i:self._i:batch_size]
         self._i = (self._i + batch_size) % len(self.images)
         return x, y
