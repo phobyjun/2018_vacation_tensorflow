@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ce854a7-b0dd-4d84-95db-88c30f412c3a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Chapter_4/CIFAR_CNN.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter_4/CNN.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter_4/CNN.docx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Softmax_Regression.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Chapter_2/Softmax_Regression.py">
+      <file leaf-file-name="CIFAR_CNN.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Chapter_4/CIFAR_CNN.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+            <state relative-caret-position="133">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -53,6 +55,7 @@
         <option value="$PROJECT_DIR$/Chapter_4/layers.py" />
         <option value="$PROJECT_DIR$/Chapter_4/MNIST_CNN.py" />
         <option value="$PROJECT_DIR$/Chapter_2/Softmax_Regression.py" />
+        <option value="$PROJECT_DIR$/Chapter_4/CIFAR_CNN.py" />
       </list>
     </option>
   </component>
@@ -79,6 +82,11 @@
               <item name="2018_vacation_tensorflow" type="462c0819:PsiDirectoryNode" />
               <item name="Chapter_2" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="2018_vacation_tensorflow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2018_vacation_tensorflow" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter_4" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -101,7 +109,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Softmax_Regression">
+  <component name="RunManager" selected="Python.CIFAR_CNN">
+    <configuration name="CIFAR_CNN" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="2018_vacation_tensorflow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter_4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_4/CIFAR_CNN.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="MNIST_CNN" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="2018_vacation_tensorflow" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -156,24 +182,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="ex_Logistic_Regression" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="2018_vacation_tensorflow" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter_3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_3/ex_Logistic_Regression.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="layers" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="2018_vacation_tensorflow" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -194,18 +202,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.ex_Linear_Regression" />
-      <item itemvalue="Python.ex_Logistic_Regression" />
       <item itemvalue="Python.Softmax_Regression" />
       <item itemvalue="Python.layers" />
       <item itemvalue="Python.MNIST_CNN" />
+      <item itemvalue="Python.CIFAR_CNN" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Softmax_Regression" />
+        <item itemvalue="Python.CIFAR_CNN" />
         <item itemvalue="Python.MNIST_CNN" />
+        <item itemvalue="Python.Softmax_Regression" />
         <item itemvalue="Python.layers" />
         <item itemvalue="Python.ex_Linear_Regression" />
-        <item itemvalue="Python.ex_Logistic_Regression" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +239,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32358003" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24956971" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -249,6 +257,16 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Chapter_2/Softmax_Regression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter_4/MNIST_CNN.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -324,10 +342,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter_2/Softmax_Regression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter_4/MNIST_CNN.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        <state relative-caret-position="285">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>
@@ -336,18 +364,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter_4/layers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter_2/Softmax_Regression.py">
+    <entry file="file://$PROJECT_DIR$/Chapter_4/CIFAR_CNN.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        <state relative-caret-position="133">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
