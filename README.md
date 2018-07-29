@@ -22,3 +22,9 @@ Chapter 4
 2. Graphs, Session, Fetches
 3. Flowing Tensor
 4. Variables, Placeholders, Simple Optimization
+
+Chapter 5
+=========
+1. CNN
+2. MNIST_TAKE2
+3. CIFAR10
