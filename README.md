@@ -25,3 +25,9 @@ Chapter 5
 =========
 1. RNN
 2. RNN for Text Sequences
+
+Chapter 6
+=========
+1. Word Vectors
+2. Advanced RNN
+3. Embedding Visualization
