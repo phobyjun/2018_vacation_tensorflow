@@ -28,3 +28,8 @@ Chapter 5
 1. CNN
 2. MNIST_TAKE2
 3. CIFAR10
+
+Chapter 6
+=========
+1. RNN
+2. RNN for Text Sequences
