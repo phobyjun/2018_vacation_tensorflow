@@ -1,1 +1,4 @@
 /Chapter_5/logs/
+/.idea/
+/venv/
+test.py
