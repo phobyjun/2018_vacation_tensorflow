@@ -31,3 +31,17 @@ Chapter 6
 1. Word Vectors
 2. Advanced RNN
 3. Embedding Visualization
+
+Chapter 7
+=========
+1. contrib.learn
+  *Linear Regression
+  *DNN Classfier
+  *FeatureColumn
+  *Homemade CNN with contrib.learn
+2. TFLearn
+  *Installation
+  *CNN
+  *RNN
+  *Keras
+  *Pretrained models with TF-Slim
