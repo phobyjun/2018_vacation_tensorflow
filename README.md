@@ -35,7 +35,7 @@ Chapter 6
 Chapter 7
 =========
 1. contrib.learn
-* Linear Regression
+	* Linear Regression
 * DNN Classfier
 * FeatureColumn
 * Homemade CNN with contrib.learn
