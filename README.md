@@ -1,10 +1,12 @@
 Summary
 =======
 This github is studying for me about TensorFlow
+
 Chapter 2
 =========
 1. MNIST
 2. Softmax Regression
+
 Chapter 3
 =========
 1. Computation Graphs
@@ -24,6 +26,7 @@ Chapter 3
 	* Variables
 	* Placeholders
 	* Optimization
+
 Chapter 4
 =========
 1. CNN
@@ -35,6 +38,7 @@ Chapter 4
 3. CIFAR10
 	* Loading the CIFAR10 Dataset
 	* Simple CIFAR10 Models
+
 Chapter 5
 =========
 1. RNN
@@ -45,6 +49,7 @@ Chapter 5
 	* Supervised Word Embeddings
 	* LSTM and Using Sequence Length
 	* Training Embeddings and the LSTM Classifier
+
 Chapter 6
 =========
 1. Word Embeddings
@@ -58,6 +63,7 @@ Chapter 6
 3. Pretrained Embeddings, Advanced RNN
 	* Pretrained Word Embeddings
 	* Bidirectional RNN and GRU Cells
+
 Chapter 7
 =========
 1. contrib.learn
