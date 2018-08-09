@@ -1,7 +1,8 @@
 /Chapter_5/logs/
 /Chapter_6/logs/
 /Chapter_6/glove.840B.300d.zip
+/Chapter_4/__pycache__/
+/Chapter_4/CIFAR10/
 /.idea/
 /venv/
-/Chapter_4/__pycache__/
 test.py
