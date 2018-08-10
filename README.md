@@ -64,8 +64,8 @@ Chapter 6
 	* Pretrained Word Embeddings
 	* Bidirectional RNN and GRU Cells
 
-Chapter 7
-=========
+Chapter 7 (Holding)
+===================
 1. contrib.learn
 	* Linear Regression
 	* DNN Classfier
@@ -77,3 +77,16 @@ Chapter 7
 	* RNN
 	* Keras
 	* Pretrained models with TF-Slim
+
+Chapter 8
+=========
+1. TFRecords
+	* Writing with TFRecordWriter
+2. Queues
+	* Enqueuing and Dequeuing
+	* Multithreading
+	* Coordinator and QueueRunner
+3. A Full Multithreaded Input Pipeline
+	* tf.train.string_input_producer() and tf.TFRecordReader()
+	* tf.train.shuffle_batch()
+	* tf.train.start_queue_runners() and Wrapping up
