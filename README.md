@@ -90,3 +90,16 @@ Chapter 8
 	* tf.train.string_input_producer() and tf.TFRecordReader()
 	* tf.train.shuffle_batch()
 	* tf.train.start_queue_runners() and Wrapping up
+
+Chapter 9
+=========
+1. Distributed Computing
+	* Where Does the Parallelization Take Place?
+	* What is the Goal of Parallelization
+2. TensorFlow Elements
+	* tf.app.flags
+	* Clusters and Servers
+	* Replicating a Computational Graph Across Devices
+	* Managed Sessions
+	* Device Placement
+3. Distributed Example
